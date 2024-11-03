@@ -1,0 +1,14 @@
+#Inicializar balance de cuenta
+balance = 0
+
+#Funcion para depositar dinero
+Def depositar(cantidad):
+global balance
+balance += cantidad
+print(f"Has depositado ${cantidad}. Tu balance actual es: ${balance}")
+else: 
+print("Fondos insuficientes para esta operacion.")
+
+#Mostrar el balance actual
+def mostrar_balance():
+print(f"Tu balance actual es: ${balance}")
